@@ -21,7 +21,7 @@ go build
 To generate a sigle SQLite file from a single text file containing credentials.
 
 ```
-.\mnemosine.exe -in-file leak-file.txt -out-file leak-file.db -skip-file leak-file-skipped.txt
+./mnemosine -in-file leak-file.txt -out-file leak-file.db -skip-file leak-file-skipped.txt
 ```
 
 To generate multiple SQLite files from multiple text files containing credentials.
